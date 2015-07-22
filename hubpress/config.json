@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "fr-developer",
-    "repositoryName": "fr-developer.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Roon"
-  }
-}
+{"meta":{"username":"fr-developer","repositoryName":"fr-developer.github.io","branch":"master"},"site":{"title":"Fast Retailing Developers Blog","description":"Description is here.","url":"https://fr-developer.github.io"},"socialnetwork":{},"theme":{"name":"Roon","url":"//fr-developer.github.io/themes/Roon"}}
