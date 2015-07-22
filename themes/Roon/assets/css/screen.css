@@ -1,3 +1,25 @@
+/* Custom CSS */
+#work_with_us_square {
+    background-color: #f00;
+    color: #fff;
+    display: table;
+    width: 80%;
+    height: 60px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#work-with-us-btn {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    font-size:16px;
+    font-weight: bold;
+}
+
 /* Link colour */
 a {
     color: #ff0000;
