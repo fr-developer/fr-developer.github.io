@@ -1,19 +1,21 @@
 /* Custom CSS */
 @font-face {
     font-family: 'UniqloRegular';
-    src: url('../font/UniqloRegular.ttf') format("truetype");
-    src: url('../font/UniqloRegular.woff') format("woff");
-    src: url('../font/uniqloregular.eot?#iefix') format('embedded-opentype')\9; /* IE8 */
+    src: url('../fonts/UniqloRegular.ttf') format("truetype");
+    src: url('../fonts/UniqloRegular.woff') format("woff");
+    src: url('../fonts/uniqloregular.eot?#iefix') format('embedded-opentype')\9; /* IE8 */
 }
 
 .font_uniqlo {
     font-family: UniqloRegular, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
-#work_with_us_square {
+#work_with_us_btn {
     background-color: #f00;
+    font-size:16px;
+    font-weight: bold;
+    text-align:center;
     color: #fff;
-    display: table;
     width: 80%;
     height: 60px;
     overflow: hidden;
@@ -21,14 +23,6 @@
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-}
-
-#work-with-us-btn {
-    display: table-cell;
-    vertical-align: middle;
-    text-align:center;
-    font-size:16px;
-    font-weight: bold;
 }
 
 /* Link colour */
@@ -391,6 +385,7 @@ body>header {
 }
 body>header h1 {
     padding: 58px 100px 60px 100px;
+    font-family: UniqloRegular, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 36px;
     font-weight: bold
 }
@@ -459,7 +454,6 @@ article>header {
 }
 article>header h1 {
     margin-top: 20px;
-    font-weight: bold;
     font-size: 40px;
     line-height: 1.2em;
     -ms-word-break: break-all;
@@ -1444,6 +1438,7 @@ body.touch.user article .readmore {
     }
     body>header h1 {
         padding: 48px 20px 40px 20px;
+	font-family: UniqloRegular, Arial, Helvetica Neue, Helvetica, sans-serif;
         font-size: 28px
     }
     body.user>header {
