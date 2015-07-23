@@ -1,4 +1,15 @@
 /* Custom CSS */
+@font-face {
+    font-family: 'UniqloRegular';
+    src: url('../font/UniqloRegular.ttf') format("truetype");
+    src: url('../font/UniqloRegular.woff') format("woff");
+    src: url('../font/uniqloregular.eot?#iefix') format('embedded-opentype')\9; /* IE8 */
+}
+
+.font_uniqlo {
+    font-family: UniqloRegular, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
 #work_with_us_square {
     background-color: #f00;
     color: #fff;
