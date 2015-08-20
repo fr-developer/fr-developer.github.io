@@ -59,8 +59,11 @@
             <div id="user_bio">
                 <div class="inner">
                     {{!-- TODO: Parse HTML for links --}}
-                    {{bio}}
+                    {{@blog.description}}
                 </div>
+                <button id="work_with_us_btn" onclick="location.href='http://www.fastretailing.com/employment/en_us/'">
+                    Work with Us
+                </button>
             </div>
 
         </footer>
@@ -125,5 +128,3 @@
 {{/post}}
 
 {{!-- TODO: Add next/prev posts --}}
-
-{{> "footer"}}
